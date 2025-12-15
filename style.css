@@ -1,0 +1,82 @@
+/* General styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+
+/* Style for the title */
+.title {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Style for the form */
+.orderForm {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 350px; 
+    transform: translateY(-5)
+}
+.orderForm:hover{
+    transform: translateY(0)
+}
+
+/* Style for labels */
+.labelForm {
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+    display: block; /* Ensures labels are on their own line */
+}
+
+/* Style for inputs and textarea */
+.input {
+    width: 100%; /* Full width of the container */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box; /* Includes padding in the width */
+}
+
+.input:focus {
+    border-color: #007BFF; /* Blue border on focus */
+    outline: none; /* Remove default outline */
+}
+
+/* Style for the button */
+.button {
+    background-color: #007BFF; /* Blue background */
+    color: #fff; /* White text */
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%; /* Full width */
+    transition: background-color 0.3s;  transform: translateY(-2)
+}
+
+.button:hover {
+    background-color: #0056b3;
+    transform: translateY(0)
+}
+
+/* Additional style for messages (from the HTML) */
+#message {
+    margin-top: 10px;
+    text-align: center;
+}
